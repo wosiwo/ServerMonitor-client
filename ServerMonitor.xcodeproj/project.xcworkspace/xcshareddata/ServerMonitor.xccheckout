@@ -12,20 +12,24 @@
 	<dict>
 		<key>934A018DC397AB3E8889812CF4E0EB61F363CC48</key>
 		<string>github.com:wosiwo/ssh-ban.git</string>
+		<key>CA2A2B665FBEEFDAAA9DCDFE0DFCDF80D3A77B6D</key>
+		<string>github.com:wosiwo/ServerMonitor-client.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>swift/ServerMonitor/ServerMonitor/ServerMonitor.xcodeproj</string>
+	<string>ServerMonitor.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>934A018DC397AB3E8889812CF4E0EB61F363CC48</key>
-		<string>../../../../..</string>
+		<string>../../../github</string>
+		<key>CA2A2B665FBEEFDAAA9DCDFE0DFCDF80D3A77B6D</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:wosiwo/ssh-ban.git</string>
+	<string>github.com:wosiwo/ServerMonitor-client.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>934A018DC397AB3E8889812CF4E0EB61F363CC48</string>
+	<string>CA2A2B665FBEEFDAAA9DCDFE0DFCDF80D3A77B6D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>934A018DC397AB3E8889812CF4E0EB61F363CC48</string>
 			<key>IDESourceControlWCCName</key>
 			<string>github</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CA2A2B665FBEEFDAAA9DCDFE0DFCDF80D3A77B6D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ServerMonitor-client</string>
 		</dict>
 	</array>
 </dict>

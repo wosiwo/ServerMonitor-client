@@ -27,6 +27,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         tableView.delegate = self
         tableView.dataSource = self
         self.view.addSubview(tableView)
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -93,9 +94,15 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         var viewCon: UIViewController = UIViewController()
         viewCon.view.backgroundColor = UIColor.whiteColor()
         
+        //只加载一次
+        if let data = self.serverData {
+            
+        }else{
+            getServerData()
+        }
+        
         var chart: PDChart!
         
-        getServerData()
         var pieChart: PDPieChart = self.generatePieChart(indexPath.row)
         chart = pieChart
         viewCon.view.addSubview(pieChart)
